@@ -1,0 +1,11 @@
+teleserv@teleserv-Surface-Book:~$ ibmcloud sl vs list
+id         hostname   domain   cpu   memory   public_ip       private_ip       datacenter   action   
+81891507   t          te.le    1     1024     169.61.86.171   10.190.124.195   wdc07   
+
+teleserv@teleserv-Surface-Book:~$ ibmcloud sl vs list
+id         hostname   domain      cpu   memory   public_ip       private_ip       datacenter   action   
+81891507   t          te.le       1     1024     169.61.86.171   10.190.124.195   wdc07           
+82476795   test       you.cloud   2     2048     -               10.136.72.4      ams03        ASSIGN_NETWORK 
+
+
+
