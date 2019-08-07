@@ -1,0 +1,40 @@
+Answers:
+
+
+PART 1
+1. In the time allowed, how many images did you annotate?
+232 in an hour.
+
+2. Home many instances of the Millennium Falcon did you annotate? How many
+TIE Fighters?
+217 Millenium Falcon
+179 TIE Fighter
+
+3. Based on this experience, how would you handle the annotation of large image
+data set?
+I know annotaiton of large image are currently outsourced to Chinese rural villages due to the computer resources and cheap labor. I wouldn't think of a better way so far..
+
+4. Think about image augmentation? How would augmentations such as flip,
+rotation, scale, cropping, and translation effect the annotations?
+more training samples but less presicion in predictions due to the change of scale and pixels.
+
+PART 2
+1. Describe the following augmentations in your own words
+? Flip
+Mirror image vertically / horizontally.
+? Rotation
+Rotated by center.
+? Scale
+Extend/Shrink by the same ratio
+? Crop
+Crop margins
+? Translation
+Move along vertically/ horizontally
+? Noise
+signal added to the pic to distort some pixels without changing the bigger shape.
+
+PART 3
+1. Image annotations require the coordinates of the objects and their classes; in
+your option, what is needed for an audio annotation?
+
+Starting time, ending time, duration, frequency, pitch, voice wavelengh with fourier analysis.
